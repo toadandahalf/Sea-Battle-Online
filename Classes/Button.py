@@ -21,7 +21,7 @@ class Button:
         self.height = height
 
     def render(self):
-        pygame.draw.rect(self.screen, self.color, (self.left, self.top, self.width, self.height), 1)
+        pygame.draw.rect(self.screen, self.color, (self.left, self.top, self.width, self.height), 2)
 
     def get_click(self, position):
         if all([self.left < position[0] < self.width + self.left,

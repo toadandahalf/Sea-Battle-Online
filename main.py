@@ -27,6 +27,7 @@ class Game:
 
         """При запуске игры пока что будет открываться окно меню"""
         self.running_one = self.start_screen
+        self.run()
 
     def run(self):
         while True:
